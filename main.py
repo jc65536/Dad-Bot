@@ -65,5 +65,6 @@ async def on_message(message):
                 victim = victim.strip();
                 output = "You are " + victim + ", but what am I?"
                 await client.send_message(message.channel, output)
+#currently invalid 
 token = "NTEzNDE2NjY0MTYzODExMzM4.DtH0cg.SfLkFI4pONtM6eTjOKyIk-bF0Z8"
 client.run(token)
